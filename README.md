@@ -9,15 +9,23 @@ Foi idealizado dois projetos: um criado por mim, utilizando algumas bibliotecas 
  - 2° alternativa: abrir o arquivo "program.py" em um editor de código/IDE e executar o projeto.
 
 ## USAR FRAMEWORK SCRAPY:
+ - 1° passo: acessar algum terminal (recomendo o anaconda prompt) e, em sequência, executar os seguintes comandos dentro da pasta raíz do programa:
+ 
+<div align="center">
+ <img align="center" src='https://github.com/lucasptcastro/ProjetoMonteNegroLabs/blob/main/images/comandos%20framework%20scrapy.png'>
+</div>
+
+ - O primeiro comando é para ir até a pasta em que o scrapy foi instalado.
+ - O segundo é para transformar o scrapy em um arquivo .json.
 
 ## NECESSÁRIO
  - Python 3.10.5 ou superior instalado
  - Biblioteca BeautifulSoup e Requests instaladas
 
   - Instalação de ambas bibliotecas:
-<div>
-  <img align="center" src='https://github.com/lucasptcastro/ProjetoMonteNegroLabs/blob/main/images/pip%20install%20beautifulsoup4.png'>
-  <img align="center" src='https://github.com/lucasptcastro/ProjetoMonteNegroLabs/blob/main/images/pip%20install%20requests.png'>
+<div align="center">
+  <img src='https://github.com/lucasptcastro/ProjetoMonteNegroLabs/blob/main/images/pip%20install%20beautifulsoup4.png'>
+  <img src='https://github.com/lucasptcastro/ProjetoMonteNegroLabs/blob/main/images/pip%20install%20requests.png'>
 </div>
 
 
