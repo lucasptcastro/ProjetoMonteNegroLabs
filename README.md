@@ -56,7 +56,7 @@ Foi idealizado dois projetos: um criado por mim, utilizando algumas bibliotecas 
   - Descreva sua aplicação e os problemas que ela resolve
   - Dê instruções de como executar os testes e a sua aplicação
 
-## Observações:
+## OBSERVAÇÕES:
 
  - A formatação do arquivo data.json não ficou idêntica ao que foi proposto, tendo em vista que os dados ficaram dispostos um abaixo do outro e não todos em uma linha só.
  - Notei que a página que foi usada carrega mais assuntos ao chegar ao final dela, porém foi levado em consideração apenas a página principal que é carregada, tentei carregar as demais utilizando a busca pela tag 'p' que tinha o seguinte texto: "O Portal Contábeis se isenta de quaisquer responsabilidades civis sobre eventuais discussões dos usuários ou visitantes deste site, nos termos da lei no 5.250/67 e artigos 927 e 931 ambos do novo código civil brasileiro." da classe "rodapeFinal", que carregava os demais assuntos até o ano de 2007, porém não obtive êxito.
