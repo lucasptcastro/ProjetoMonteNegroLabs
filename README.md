@@ -35,6 +35,8 @@ Foi idealizado dois projetos: um criado por mim, utilizando algumas bibliotecas 
  <img align="center" src='https://github.com/lucasptcastro/ProjetoMonteNegroLabs/blob/main/images/comandos%20framework%20scrapy.png'>
 </div>
 
+<br>
+
  - O primeiro comando é para ir até a pasta em que o scrapy foi instalado.
  - O segundo é para transformar o scrapy em um arquivo .json.
 
