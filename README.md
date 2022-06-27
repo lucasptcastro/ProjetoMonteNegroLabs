@@ -5,7 +5,10 @@ Este projeto foi desenvolvido com o intúito de consumir dados do site <a href="
 Foi idealizado dois projetos: um criado por mim, utilizando algumas bibliotecas nativas e externas do python e outro usando o framework scrapy que é ideal para este tipo de uso. 
 
 ## USAR O PROJETO EM SI:
+ - 1° alternativa: abrir o arquivo "program.exe" localizado em ProjetoMonteNegroLabs/dist/program.exe. Após executá-lo, o executável irá gerar o JSON automaticamente na pasta raíz do projeto.
+ - 2° alternativa: abrir o arquivo "program.py" em um editor de código/IDE e executar o projeto.
 
+## USAR FRAMEWORK SCRAPY:
 
 ## NECESSÁRIO
  - Python 3.10.5 ou superior instalado
