@@ -4,7 +4,7 @@ Este projeto foi desenvolvido com o intúito de consumir dados do site <a href="
 
 Foi idealizado dois projetos: um criado por mim, utilizando algumas bibliotecas nativas e externas do python e outro usando o framework scrapy que é ideal para este tipo de uso.
 
-A classe e funções estão localizadas no arquivo "packages".
+A classe e funções estão localizadas no arquivo "packages.py", na página raíz.
 
 ## USAR O PROJETO EM SI:
  - 1° alternativa: executar o arquivo "program.exe" localizado em ProjetoMonteNegroLabs/dist/program.exe
