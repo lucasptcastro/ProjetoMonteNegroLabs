@@ -14,8 +14,8 @@ class Packages:
         """
         
         # Cria o arquivo json.
-        with open('data.json', 'w+') as f:
-            json.dump(file, f, ensure_ascii=False, indent=1, separators=(',', ':'))
+        with open(r'data.json', 'w+') as json_file: #fr'C:\Users\Lucas\Downloads\mes{date.today().month}_22.xlsx' 
+            json.dump(file, json_file, ensure_ascii=False, indent=1, separators=(',', ':'))
     
     
     def web_scraping():
@@ -41,7 +41,17 @@ class Packages:
             time = soup.find_all('em', class_='timestamp')[c].text
             
             # Converte o formato do horário para horas/mintos e segundos, se tiver.
-            if 'Ontem' in time:
+            if 'Hoje' in time:
+                # Pega o texto a partir do sexto caractere da classe "timestamp" do atributo "em".
+                time = soup.find_all('em', class_='timestamp')[c].text[5::]
+
+                if len(time) > 5:
+                    time_format = datetime.strptime(time, '%H:%M:%S')
+                    time = time_format.strftime('%H:%M:%S')
+                else:
+                    time_format = datetime.strptime(time, '%H:%M')
+                    time = time_format.strftime('%H:%M')
+            elif 'Ontem' in time:
                 # Pega o texto a partir do sexto caractere da classe "timestamp" do atributo "em".
                 time = soup.find_all('em', class_='timestamp')[c].text[6::]
                 
