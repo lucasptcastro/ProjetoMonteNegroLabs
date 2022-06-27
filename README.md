@@ -2,7 +2,9 @@
 
 Este projeto foi desenvolvido com o intúito de consumir dados do site <a href="https://www.contabeis.com.br/conteudo/">contabeis</a> à fim de ser avaliado e selecionado para a vaga de Desenvolvedor Python Júnior.
 
-Foi idealizado dois projetos: um criado por mim, utilizando algumas bibliotecas nativas e externas do python e outro usando o framework scrapy que é ideal para este tipo de uso. 
+Foi idealizado dois projetos: um criado por mim, utilizando algumas bibliotecas nativas e externas do python e outro usando o framework scrapy que é ideal para este tipo de uso.
+
+A classe e funções estão localizadas no arquivo "packages".
 
 ## USAR O PROJETO EM SI:
  - 1° alternativa: executar o arquivo "program.exe" localizado em ProjetoMonteNegroLabs/dist/program.exe
